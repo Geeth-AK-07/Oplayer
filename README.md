@@ -1,2 +1,2 @@
 # Online-Video-Player
-Any Video Play With link
+Play Any Video With link.
