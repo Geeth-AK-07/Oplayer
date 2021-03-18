@@ -10,10 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Icons -->
-    <link rel="icon" href="https://cdn.plyr.io/static/icons/favicon.ico" />
-    <link rel="icon" type="image/png" href="https://cdn.plyr.io/static/icons/32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="https://cdn.plyr.io/static/icons/16x16.png" sizes="16x16" />
-    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.plyr.io/static/icons/180x180.png" />
+    <link rel="icon" href="favicon.ico">
 
     <!-- Open Graph -->
     <meta property="og:title" content="Plyr - A simple, customizable HTML5 Video, Audio, YouTube and Vimeo player" />
@@ -29,6 +26,7 @@
 
     <!-- Docs styles -->
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/demo.css" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css" />
 
     <!-- Preload -->
     <link rel="preload"
@@ -41,20 +39,10 @@
           crossorigin
           type="font/woff2"
           href="https://cdn.plyr.io/static/fonts/gordita-bold.woff2" />
-
-    <!-- Google Analytics-->
-    <script>
-        //window.dataLayer = window.dataLayer || [];
-        //function gtag() {
-        //    dataLayer.push(arguments);
-        //}
-        //gtag('js', new Date());
-        //gtag('config', 'UA-132699580-1');
-    </script>
 </head>
 
 <body style="background-color: rgb(23,27,38);">
-    <div class="grid" style="background-color: rgb(23,27,38);">
+    <div class="grid" style="background-color: rgb(23,27,38); overflow: hidden;">
         <header>
             <!--<h1>ONLINE Video Player</h1>-->
             <h1>ONLINE<span>Video</span>Player<span>With</span>LINK.</h1>
@@ -83,11 +71,11 @@
             </div>
         </header>
         <main>
-            <div id="container">
-                <video controls
-                       autoplay
+                <video  controls
+                       
                        playsinline
                        id="player"
+                       class="js-player"
                        src="Nature.mp4"
                        >
                 </video>
@@ -96,13 +84,13 @@
         </main>
     </div>
 
-    <aside style="background-color: rgb(48, 55, 68);">
+    <aside style="background-color: rgb(48, 55, 68); height: 40px;">
           <svg class="icon">
             <title></title>
           </svg>
         <p style="color:rgb(221, 221, 221);">
             Developed By
-            <a href="https://github.com/AkaiGEN" target="_blank">
+            <a href="https://github.com/Geeth-AK-07/Oplayerlink.github.io" target="_blank">
                 AkaiGEN
             </a>
         </p>
@@ -119,7 +107,11 @@
         }
     </script>
     <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
-
-    <script src="https://cdn.plyr.io/3.6.4/demo.js" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const player = Plyr.setup('.js-player');
+        });
+    </script>
+    
 </body>
 </html>
