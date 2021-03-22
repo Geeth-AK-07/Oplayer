@@ -2,11 +2,11 @@
 Play Any Video With link.
     https://geeth-ak-07.github.io/Oplayerlink.github.io/
 
-# Instructions
+### Instructions
     1. Copy And Paste Video Links In The The TextBox
     1. Hit The Play Button
 
-# Editions
+### Editions
 
     * 1.0 Edition
       * Added Welcome Video
