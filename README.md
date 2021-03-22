@@ -1,6 +1,7 @@
 # Online-Video-Player
 Play Any Video With link.
-    https://geeth-ak-07.github.io/Oplayerlink.github.io/
+
+    https://cutt.ly/oplayer
 
 ### Instructions
     01. Copy And Paste Video Links In The The TextBox
@@ -16,4 +17,4 @@ Play Any Video With link.
       - Remove Seekbar preview in plyr.io demo.
 
 
-This is Modification of __https://plyr.io__ Page.
+__This is Modification of https://plyr.io Page.__
