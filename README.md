@@ -9,11 +9,12 @@ Play Any Video With link.
 ### Editions
 
     * 1.0 Edition
-      - Added Welcome Video
+      - Added Welcome Video.
 
     * 1.1 Edition
       - SeekBar Time Counter Added.
       - Remove Seekbar preview in plyr.io demo.
+      - Added Autoplay Video After Click Play.
 
 
 __This is Modification of https://plyr.io Page.__
