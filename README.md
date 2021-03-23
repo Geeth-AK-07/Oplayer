@@ -14,7 +14,7 @@ Play Any Video With link.
     * 1.1 Edition
       - SeekBar Time Counter Added.
       - Remove Seekbar preview in plyr.io demo.
-      - Added Autoplay Video After Click Play.
+      - Added Autoplay Video After Click Play Button.
 
 
 __This is Modification of https://plyr.io Page.__
