@@ -8,10 +8,10 @@ Play Any Video With link.
 
 ### Change Logs
 
-    - 1.0 Edition
+    - 1.0 Release
       * Added Welcome Video.
 
-    - 1.1 Edition
+    - 1.1 Release
       * SeekBar Time Counter Added.
       * Remove Seekbar preview in plyr.io demo.
       * Added Autoplay Video After Click Play Button.
