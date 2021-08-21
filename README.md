@@ -3,7 +3,7 @@ Play Any Video With link.
     https://cutt.ly/onlineplayer
 
 ### Instructions
-    01. Copy And Paste Video Links In The The TextBox
+    01. Copy And Paste Video Links In The TextBox
     02. Hit The Play Button
 
 ### Change Logs
